@@ -1,4 +1,4 @@
-# ProblemsOnLinkedList
+# JDBC
 
 | Program Name             | Link Of Souce code                                                                   |
 | ----------------- | ------------------------------------------------------------------ |
