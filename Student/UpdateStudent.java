@@ -8,8 +8,8 @@ public class UpdateStudent
        {
            Class.forName("com.mysql.cj.jdbc.Driver");
            String url="jdbc:mysql://localhost:3306/Student";
-           String username="kunal";
-           String password="Kunal@123";
+           String username="root";
+           String password="";
            String sql="update Student set name='Bharat' where RollNo=13";
 
            Connection con=DriverManager.getConnection(url, username, password);

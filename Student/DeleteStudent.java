@@ -8,8 +8,8 @@ public class DeleteStudent
         {
             Class.forName("com.mysql.cj.jdbc.Driver");
             String url="jdbc:mysql://localhost:3306/Student";
-            String username="kunal";
-            String password="Kunal@123";
+            String username="root";
+            String password="";
             String sql="delete from Student where RollNo=15";
             
             Connection con=DriverManager.getConnection(url, username, password);

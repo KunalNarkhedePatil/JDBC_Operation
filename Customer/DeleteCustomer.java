@@ -11,8 +11,8 @@ class Demo
             BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
             Class.forName("com.mysql.cj.jdbc.Driver");
             String url="jdbc:mysql://localhost:3306/Kunal";
-            String username="kunal";
-            String password="Kunal@123";
+            String username="root";
+            String password="";
 
             Connection con=DriverManager.getConnection(url, username, password);
             if(con.isClosed())
@@ -21,7 +21,7 @@ class Demo
             }
             else
             {
-                System.out.println("Connetion Connected..");
+                System.out.println("Connetion Successfully..");
             }
             Statement stmt=con.createStatement();
             System.out.println("Enter the Customer Id:");
